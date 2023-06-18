@@ -1,0 +1,36 @@
+h1 {
+    background: rgb(220, 140, 240);
+}
+h2 {
+    background: rgb(165, 105, 200);
+}
+h3 {
+    background: rgb(100, 100, 140);
+}
+h4 {
+    background: rgb(230, 230, 160);
+}
+h5 {
+    background: rgb(215, 215, 130);
+}
+h6 {
+    background: rgb(195, 165, 80);
+}
+
+.one {
+    font-family: 'Courier New', Courier, monospace;
+}
+.two {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.boldy {
+    font-weight: bold;
+}
+.p2 {
+    /* border: red solid 5px; */
+    border: rgb(165, 105, 200) dotted 5px;
+    margin: 50px;
+    padding: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:50px;
+}
