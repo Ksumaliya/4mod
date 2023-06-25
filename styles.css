@@ -34,3 +34,6 @@ h6 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius:50px;
 }
+img {
+    border: rgb(165, 105, 200) dotted 5px;
+}
