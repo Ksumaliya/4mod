@@ -10,7 +10,7 @@
     <h1> Страница №1</h1>
     <a target="_blank" href="page2.html">Ссылка на Page 2</a>
     <div class="container" style="width: max-content;">
-    <form>
+        <form>
         
             <label for="pole1">Имя пользователя</label>
             <input class="form-control form-control-lg" id="pole1" type="email">
@@ -18,18 +18,21 @@
             <label for="pole2">Пароль</label>
             <input class="form-control form-control-sm" id="pole2" type="password">
        
-            <label for="pole3">Подтвердить</label>
-            <input class="form-check-input" id="pole3" type="checkbox">
+            <label class="form-check-label" for="pole3">Подтвердить</label>
+            <input class="form-check-input" type="checkbox" id="pole3" type="checkbox">
         
             <label for="pole4"></label>
             <input class="form-range form-range-step" id="pole4" type="range"> 
-        
-            <label for="pole5">Выбор</label>
-            <input class="form-check-input" id="pole5" type="radio">
+
+            <label class="form-check-label" for="pole5">Выбор</label>
+            <input class="form-check-input" type="radio" id="pole5" type="radio">
         
             <label for="pole6">Тык</label>
-            <input class="btn btn-outline-warning" id="pole6" type="button" value="тык">
-    </form>
-    <div>
+            <input class="btn btn-outline-warning" type="button" id="pole6" type="button" value="тык">
+        </form>
+    </div>
+    <div class="container" style="width: max-content;">
+        <textarea cols="55" rows="10" placeholder="Здесь можно написать много текста"></textarea>
+    </div>
 </body>
 </html>
